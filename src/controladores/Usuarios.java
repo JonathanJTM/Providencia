@@ -34,14 +34,30 @@ public class Usuarios extends HttpServlet {
 		String op=request.getParameter("op");
 		RequestDispatcher rd=request.getRequestDispatcher("jsp/comunes/principal.jsp");
 		switch(op){
-		case "n":
+		case "au":
 			rd=request.getRequestDispatcher("jsp/usuarios/altausuario.jsp");
 			System.out.println("path: " + request.getContextPath());
-		case "i":
-		case "ci":
-		case "e":
-		case "d":
-		case "cg":
+		case "cu":
+			rd=request.getRequestDispatcher("jsp/usuarios/consultarusuario.jsp");
+			System.out.println("path: " + request.getContextPath());
+		case "ac":
+			rd=request.getRequestDispatcher("jsp/usuarios/altacat.jsp");
+			System.out.println("path: " + request.getContextPath());
+		case "cc":
+			rd=request.getRequestDispatcher("jsp/usuarios/consultarcat.jsp");
+			System.out.println("path: " + request.getContextPath());
+		case "ap":
+			rd=request.getRequestDispatcher("jsp/usuarios/altaprod.jsp");
+			System.out.println("path: " + request.getContextPath());
+		case "cp":
+			rd=request.getRequestDispatcher("jsp/usuarios/consultaprod.jsp");
+			System.out.println("path: " + request.getContextPath());
+		case "pp":
+			rd=request.getRequestDispatcher("jsp/usuarios/altaped.jsp");
+			System.out.println("path: " + request.getContextPath());
+		case "p":
+			rd=request.getRequestDispatcher("jsp/usuarios/consultaped.jsp");
+			System.out.println("path: " + request.getContextPath());
 		}
 		rd.forward(request, response);
 	}

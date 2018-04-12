@@ -121,7 +121,7 @@
 			</div>
 
 		</aside>
-
+<script src="js/Global.js"></script>
 <div style="text-align:center" id="fh5co-main">
 	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
 		<div class="container">

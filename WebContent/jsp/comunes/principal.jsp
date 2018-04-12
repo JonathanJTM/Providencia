@@ -57,7 +57,7 @@
 	<link rel="stylesheet" href="../../css/style.css">
 
 	<!-- Modernizr JS -->
-	<script src="../../js/modernizr-2.6.2.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -70,7 +70,7 @@
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 			<h1 id="fh5co-logo">
-				<a href="index.html"><img src="../../images/Logo1.png"></a>
+				<a href="index.jsp"><img src="../../images/Logo1.png"></a>
 			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
@@ -229,7 +229,7 @@
 
 
 			<div class="fh5co-narrow-content">
-				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">This Is What <span>We Love To Do</span></h2>
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Esto es lo <span>que ofrecemos</span></h2>
 				<div class="row">
 					<div class="col-md-6">
 						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
@@ -297,7 +297,7 @@
 		
 			<div class="fh5co-cards">
 				<div class="fh5co-narrow-content">
-					<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Press Release</h2>
+					<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Generalidades</h2>
 
 					<div class="fh5co-flex-wrap">
 						<div class="fh5co-card animate-box" data-animate-effect="fadeInLeft">
@@ -319,7 +319,7 @@
 			<div class="fh5co-narrow-content">
 				<div class="row">
 					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-						<h1 class="fh5co-heading-colored">We Design Beautiful &amp; Functional Website</h1>
+						<h1 class="fh5co-heading-colored">Diseño, creacion y &amp; servicios de carpinteria.</h1>
 					</div>
 				</div>
 				<div class="row">
