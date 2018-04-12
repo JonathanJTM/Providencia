@@ -122,6 +122,7 @@
 
 		</aside>
 <script src="js/Global.js"></script>
+<h1>PRUEBA DE TEXTODJKSFHLAJDFHALKJSDFHALSKJDFHASLJKDFHAKSJFH</h1>
 <div style="text-align:center" id="fh5co-main">
 	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
 		<div class="container">
@@ -142,7 +143,7 @@
 						<input id="password" type="password" class="form-control" name="password" placeholder="password" required="required">
 					</div>
 						<input type="submit" value="Enviar" class="btn btn-info" />
-						<input type="button" value="Registrar usuario" class="btn btn-info" onclick="reenviar('Usuarios?op=n');"/>
+						<input type="button" value="Registrar usuario" class="btn btn-info" onclick="reenviar('Usuarios?op=au');"/>
 						<a href="jsp/comunes/principal.jsp">Principal</a>
 				</form>
 			</div>
