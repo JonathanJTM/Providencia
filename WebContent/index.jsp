@@ -7,7 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Nitro &mdash; Free HTML5 Bootstrap Website Template by FreeHTML5.co</title>
+	<title>Carpinteria La Providencia</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -65,21 +65,53 @@
 
 	</head>
 	<body>
-
 	<div id="fh5co-page">
-
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-		<aside id="fh5co-aside" role="complementary" class="border">
+		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
-			<h1 id="fh5co-logo"><a href="index.html"><img src="images/Logo1.png" alt="Free HTML5 Bootstrap Website Template"></a></h1>
+			<h1 id="fh5co-logo">
+				<a href="index.html"><img src="/images/Logo1.png"></a>
+			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li><a href="index.html">Home</a></li>
+					<li class="fh5co-active"><a href="jsp/comunes/principal.jsp">Principal</a></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="portfolio.html">Categorias <span
+							class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Consultar Categorias</a></li>
+							<li><a href="#">Alta de Categorias</a></li>
+							<li><a href="#">Editar Categorias</a></li>
+						</ul></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="about.html">Productos <span
+							class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Consultar Productos</a></li>
+							<li><a href="#">Alta de Productos</a></li>
+							<li><a href="#">Editar Productos</a></li>
+						</ul></li>
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">Pedidos<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Consultar Pedidos</a></li>
+							<li><a href="#">Alta de Pedidos</a></li>
+							<li><a href="#">Editar Pedidos</a></li>
+						</ul></li>
+					
+					<li class="dropdown"><a class="dropdown-toggle"
+						data-toggle="dropdown" href="#">Usuario <span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Editar perfil</a></li>
+							<li><a href="#">Cerrar Sesi&oacute;n</a></li>
+						</ul></li>
+						<li><a href="about.html">Acerca De</a></li>
 				</ul>
 			</nav>
 
 			<div class="fh5co-footer">
-				<<p><small>Sitio desarrollado por alumnos de la clase Programacion Web 2018 &copy; 2018</span> </small></p>
+		
+				<p><small>Sitio desarrollado por alumnos de la clase Programacion Web 2018 &copy; 2018</span> </small></p>
 				<ul>
 					<li><a href="#"><i class="icon-facebook"></i></a></li>
 					<li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -90,23 +122,33 @@
 
 		</aside>
 
-		<div id="fh5co-main">
-
-			<div class="fh5co-narrow-content">
-				<div class="row">
-					<div class="col-md-5">
-						<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Acerca de Nosotros <span>Carpinteria Providencia</span></h2>
-						<p class="fh5co-lead animate-box" data-animate-effect="fadeInLeft">Texto.</p>
-						<p class="animate-box" data-animate-effect="fadeInLeft"> Texto</p>
-					</div>
-					<div class="col-md-6 col-md-push-1 animate-box" data-animate-effect="fadeInLeft">
-						<img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive"> 
-					</div>
-				</div>
-				
+<div style="text-align:center" id="fh5co-main">
+	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
+		<div class="container">
+	<div id="loginbox" style="margin-top: 50px;"
+			class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<div class="panel-title">Incio de Sesion</div>
 			</div>
-
+			<div class="panel-body">
+				<form class="form-horizontal">
+					<div style="margin-bottom: 25px" class="input-group">
+						<span class="input-group-addon">Usuario:</span> 
+						<input id="username" type="text" class="form-control" name="username" value="" placeholder="username" required="required">
+					</div>
+					<div style="margin-bottom: 25px" class="input-group">
+						<span class="input-group-addon">Password:</span> 
+						<input id="password" type="password" class="form-control" name="password" placeholder="password" required="required">
+					</div>
+						<input type="submit" value="Enviar" class="btn btn-info" />
+						<input type="button" value="Registrar usuario" class="btn btn-info" onclick="reenviar('Usuarios?op=n');"/>
+						<a href="jsp/comunes/principal.jsp">Principal</a>
+				</form>
+			</div>
 		</div>
+	</div>
+	</div>
 	</div>
 
 	<!-- jQuery -->
@@ -130,4 +172,3 @@
 
 	</body>
 </html>
-
