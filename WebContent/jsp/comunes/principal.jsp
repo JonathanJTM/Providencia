@@ -70,7 +70,7 @@
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 			<h1 id="fh5co-logo">
-				<a href="index.jsp"><img src="../../images/Logo1.png"></a>
+				<a href="principal.jsp"><img src="../../images/Logo1.png"></a>
 			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>

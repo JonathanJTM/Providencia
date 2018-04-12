@@ -45,16 +45,16 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="../../css/animate.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="../../css/icomoon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="../../css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="../../css/owl.carousel.min.css">
-	<link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Modernizr JS -->
 	<script src="../../js/modernizr-2.6.2.min.js"></script>
@@ -70,11 +70,11 @@
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 			<h1 id="fh5co-logo">
-				<a href="index.jsp"><img src="../../images/Logo1.png"></a>
+				<a href="index.jsp"><img src="images/Logo1.png"></a>
 			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li class="fh5co-active"><a href="../../jsp/comunes/principal.jsp">Principal</a></li>
+					<li class="fh5co-active"><a href="jsp/comunes/principal.jsp">Principal</a></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Categorias <span
 							class="caret"></span></a>
@@ -111,7 +111,7 @@
 
 			<div class="fh5co-footer">
 		
-				<p><small>Sitio desarrollado por alumnos de la clase Programacion Web 2018 &copy; 2018</span> </small></p>
+				<p><span>Sitio desarrollado por alumnos de la clase Programacion Web 2018 &copy; 2018</span></p>
 				<ul>
 					<li><a href="#"><i class="icon-facebook"></i></a></li>
 					<li><a href="#"><i class="icon-twitter"></i></a></li>
@@ -121,9 +121,9 @@
 			</div>
 
 		</aside>
-
+</div>
 <div style="text-align:center" id="fh5co-main">
-	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="../../images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
+	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
 		<div class="container">
 <div class="mainbox col-md-6 col-md-offset-2">
 <div class="panel panel-info ">
