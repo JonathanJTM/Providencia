@@ -45,16 +45,16 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="/Providencia/css/animate.css">
+	<link rel="stylesheet" href="../../WebContent/css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="/Providencia/css/icomoon.css">
+	<link rel="stylesheet" href="../../css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="/Providencia/css/bootstrap.css">
+	<link rel="stylesheet" href="../../css/bootstrap.css">
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="/Providencia/css/owl.carousel.min.css">
-	<link rel="stylesheet" href="/Providencia/css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="../../css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../../css/owl.theme.default.min.css">
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="/Providencia/css/style.css">
+	<link rel="stylesheet" href="../../css/style.css">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -70,7 +70,7 @@
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 			<h1 id="fh5co-logo">
-				<a href="index.html"><img src="/Providencia/images/Logo1.png"></a>
+				<a href="index.html"><img src="../../images/Logo1.png"></a>
 			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
@@ -129,14 +129,14 @@
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/work_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="../../images/work_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">Producto 0</h3>
 							<p>Illustration, Branding</p>
 						</a>
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/work_2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="../../images/work_2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">Producto 1</h3>
 							<p>Web, Packaging</p>
 						</a>
@@ -144,7 +144,7 @@
 					<div class="clearfix visible-sm-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/work_3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="../../images/work_3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">Producto 2</h3>
 							<p>Branding, Web</p>
 						</a>
@@ -152,7 +152,7 @@
 					<div class="clearfix visible-md-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/work_4.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="../../images/work_4.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">Producto 3</h3>
 							<p>Logo, Branding, Web</p>
 						</a>
@@ -160,14 +160,14 @@
 					<div class="clearfix visible-sm-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/work_5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="../../images/work_5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">Producto 4</h3>
 							<p>Web, Packaging, Branding</p>
 						</a>
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/work_6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="../../images/work_6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">Producto 5</h3>
 							<p>Branding</p>
 						</a>
@@ -176,14 +176,14 @@
 
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/work_7.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="../../images/work_7.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">Producto 6</h3>
 							<p>Web, Illustration</p>
 						</a>
 					</div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/work_8.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="../../images/work_8.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">Producto 7</h3>
 							<p>Branding, Web</p>
 						</a>
@@ -191,7 +191,7 @@
 					<div class="clearfix visible-sm-block"></div>
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
-							<img src="images/work_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+							<img src="../../images/work_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
 							<h3 class="fh5co-work-title">Producto 8</h3>
 							<p>Illustration, Branding</p>
 						</a>
