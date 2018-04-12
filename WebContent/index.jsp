@@ -70,13 +70,13 @@
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 			<h1 id="fh5co-logo">
-				<a href="index.html"><img src="/images/Logo1.png"></a>
+				<a href="index.jsp"><img src="images/Logo1.png"></a>
 			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
 					<li class="fh5co-active"><a href="jsp/comunes/principal.jsp">Principal</a></li>
 					<li class="dropdown"><a class="dropdown-toggle"
-						data-toggle="dropdown" href="portfolio.html">Categorias <span
+						data-toggle="dropdown" href="#">Categorias <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Consultar Categorias</a></li>

@@ -57,7 +57,7 @@
 	<link rel="stylesheet" href="../../css/style.css">
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="../../js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -74,9 +74,9 @@
 			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li class="fh5co-active"><a href="index.html">Principal</a></li>
+					<li class="fh5co-active"><a href="../../jsp/comunes/principal.jsp">Principal</a></li>
 					<li class="dropdown"><a class="dropdown-toggle"
-						data-toggle="dropdown" href="portfolio.html">Categorias <span
+						data-toggle="dropdown" href="#">Categorias <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Consultar Categorias</a></li>
@@ -84,7 +84,7 @@
 							<li><a href="#">Editar Categorias</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
-						data-toggle="dropdown" href="about.html">Productos <span
+						data-toggle="dropdown" href="portfolio.html">Productos <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="#">Consultar Productos</a></li>
@@ -125,7 +125,7 @@
 		<div id="fh5co-main">
 
 			<div class="fh5co-narrow-content">
-				<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Ve nuestros productos!</span></h4>
+				<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="../../images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Ve nuestros productos!</span></h4>
 				<div class="row animate-box" data-animate-effect="fadeInLeft">
 					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 						<a href="work.html">
