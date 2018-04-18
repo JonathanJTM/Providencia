@@ -7,7 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Carpinteria La Providencia</title>
+	<title>Iniciar Seseion - Carpinteria La Providencia</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -79,25 +79,13 @@
 						data-toggle="dropdown" href="#">Categorias <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="jsp/categorias/consultacat.jsp">Consultar Categorias</a></li>
-							<li><a href="jsp/categorias/altacat.jsp">Alta de Categorias</a></li>
-							<li><a href="jsp/categorias/modcat.jsp">Modificar Categorias</a></li>
+							<li><a href="jsp/categorias/consultacat.jsp">Lista de Categorias</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="about.html">Productos <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="jsp/productos/listaprod.jsp">Lista de Productos</a></li>
-							<li><a href="jsp/productos/consultaprod.jsp">Consultar Productos</a></li>
-							<li><a href="jsp/productos/altaprod.jsp">Alta de Productos</a></li>
-							<li><a href="jsp/productos/modprod.jsp">Modificar Productos</a></li>
-						</ul></li>
-					<li class="dropdown"><a class="dropdown-toggle"
-						data-toggle="dropdown" href="#">Pedidos<span class="caret"></span></a>
-						<ul class="dropdown-menu">
-							<li><a href="jsp/pedidos/consultaped.jsp">Consultar Pedidos</a></li>
-							<li><a href="jsp/pedidos/altaped.jsp">Alta de Pedidos</a></li>
-							<li><a href="jsp/pedidos/modped.jsp">Editar Pedidos</a></li>
 						</ul></li>
 					
 					<li class="dropdown"><a class="dropdown-toggle"
@@ -143,7 +131,7 @@
 					</div>
 						<input type="submit" value="Enviar" class="btn btn-info" />
 						<input type="button" value="Registrar usuario" class="btn btn-info" onclick="reenviar('Usuarios?op=au');"/>
-						<a href="jsp/comunes/principal.jsp">Principal</a>
+						<!-- <a href="jsp/comunes/principal.jsp">Principal</a> -->
 				</form>
 			</div>
 		</div>

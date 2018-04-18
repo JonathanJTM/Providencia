@@ -70,7 +70,7 @@
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 			<h1 id="fh5co-logo">
-				<a href="principal.jsp"><img src="images/Logo1.png"></a>
+				<a href="index.jsp"><img src="images/Logo1.png"></a>
 			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
@@ -79,32 +79,33 @@
 						data-toggle="dropdown" href="#">Categorias <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Consultar Categorias</a></li>
-							<li><a href="#">Alta de Categorias</a></li>
-							<li><a href="#">Editar Categorias</a></li>
+							<li><a href="jsp/categorias/consultacat.jsp">Consultar Categorias</a></li>
+							<li><a href="jsp/categorias/altacat.jsp">Alta de Categorias</a></li>
+							<li><a href="jsp/categorias/modcat.jsp">Modificar Categorias</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="portfolio.html">Productos <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Consultar Productos</a></li>
-							<li><a href="#">Alta de Productos</a></li>
-							<li><a href="#">Editar Productos</a></li>
+							<li><a href="jsp/productos/listaprod.jsp">Lista de Productos</a></li>
+							<li><a href="jsp/productos/consultaprod.jsp">Consultar Productos</a></li>
+							<li><a href="jsp/productos/altaprod.jsp">Alta de Productos</a></li>
+							<li><a href="jsp/productos/modprod.jsp">Modificar Productos</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Pedidos<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Consultar Pedidos</a></li>
-							<li><a href="#">Alta de Pedidos</a></li>
-							<li><a href="#">Editar Pedidos</a></li>
+							<li><a href="jsp/pedidos/consultaped.jsp">Consultar Pedidos</a></li>
+							<li><a href="jsp/pedidos/altaped.jsp">Alta de Pedidos</a></li>
+							<li><a href="jsp/pedidos/modped.jsp">Modificar Pedidos</a></li>
 						</ul></li>
 					
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Usuario <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Consultar Usuarios</a></li>
-							<li><a href="#">Editar perfil</a></li>
-							<li><a href="#">Cerrar Sesi&oacute;n</a></li>
+							<li><a href="jsp/categorias/consultausuario.jsp">Consultar Usuarios</a></li>
+							<li><a href="jsp/categorias/editarusuario.jsp">Editar perfil</a></li>
+							<li><a href="index.jsp">Cerrar Sesi&oacute;n</a></li>
 						</ul></li>
 						<li><a href="about.html">Acerca De</a></li>
 				</ul>

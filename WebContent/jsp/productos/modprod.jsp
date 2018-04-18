@@ -127,7 +127,7 @@
 <div style="text-align:center" id="fh5co-main">
 	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="../../images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
 		<div class="container">
-<div class="mainbox col-md-8 col-md-offset-2">
+<div class="mainbox col-md-11 col-md-offset-0">
 <div class="panel panel-info ">
 <div class="panel-heading"><div class="panel-title">Listado General Productos</div></div>
 <div class="panel-body">
@@ -161,7 +161,7 @@ placeholder="Busqueda por nombre de categoria" class="form-control">
 	<td>Armarios</td>
 	<td>2</td>
 	<td><img src="../../images/accept.png"></td>
-	<td><a href="#"><img src="../../images/report.png" onclick="reenviar('../../Usuarios?op=lp');" data-toggle="modal" data-target="#myModal"></a></td>
+	<td><a href="#"><img src="../../images/report.png" onclick="reenviar('../../Usuarios?op=vp');" data-toggle="modal" data-target="#myModal"></a></td>
 	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=ep');" data-toggle="modal" data-target="#myModal"></a></td>
 	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('1','Armario 1','producto');" data-toggle="modal" data-target="#myModal"></a></td>
 </tr>
@@ -173,7 +173,7 @@ placeholder="Busqueda por nombre de categoria" class="form-control">
 	<td>Cabeceros</td>
 	<td>4</td>
 	<td><img src="../../images/accept.png"></td>
-	<td><a href="#"><img src="../../images/report.png" onclick="reenviar('../../Usuarios?op=lp');" data-toggle="modal" data-target="#myModal"></a></td>
+	<td><a href="#"><img src="../../images/report.png" onclick="reenviar('../../Usuarios?op=vp');" data-toggle="modal" data-target="#myModal"></a></td>
 	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=ep');" data-toggle="modal" data-target="#myModal"></a></td>
 	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('2','Cabecero 1','producto');" data-toggle="modal" data-target="#myModal"></a></td>
 </tr>
@@ -185,7 +185,7 @@ placeholder="Busqueda por nombre de categoria" class="form-control">
 	<td>Cocinas</td>
 	<td>1</td>
 	<td><img src="../../images/accept.png"></td>
-	<td><a href="#"><img src="../../images/report.png" onclick="reenviar('../../Usuarios?op=lp');" data-toggle="modal" data-target="#myModal"></a></td>
+	<td><a href="#"><img src="../../images/report.png" onclick="reenviar('../../Usuarios?op=vp');" data-toggle="modal" data-target="#myModal"></a></td>
 	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=ep');" data-toggle="modal" data-target="#myModal"></a></td>
 	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('2','Cocina 1','producto');" data-toggle="modal" data-target="#myModal"></a></td>
 </tr>

@@ -80,32 +80,33 @@
 						data-toggle="dropdown" href="#">Categorias <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="consultacat.jsp">Consultar Categorias</a></li>
-							<li><a href="altacat.jsp">Alta de Categorias</a></li>
-							<li><a href="modcat.jsp">Modificar Categorias</a></li>
+							<li><a href="../../jsp/categorias/consultacat.jsp">Consultar Categorias</a></li>
+							<li><a href="../../jsp/categorias/altacat.jsp">Alta de Categorias</a></li>
+							<li><a href="../../jsp/categorias/modcat.jsp">Modificar Categorias</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="about.html">Productos <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="consultaprod.jsp">Consultar Productos</a></li>
-							<li><a href="altaprod.jsp">Alta de Productos</a></li>
-							<li><a href="modprod.jsp">Modificar Productos</a></li>
+							<li><a href="../../jsp/productos/listaprod.jsp">Lista de Productos</a></li>
+							<li><a href="../../jsp/productos/consultaprod.jsp">Consultar Productos</a></li>
+							<li><a href="../../jsp/productos/altaprod.jsp">Alta de Productos</a></li>
+							<li><a href="../../jsp/productos/modprod.jsp">Modificar Productos</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Pedidos<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Consultar Pedidos</a></li>
-							<li><a href="#">Alta de Pedidos</a></li>
-							<li><a href="#">Editar Pedidos</a></li>
+							<li><a href="consultaped.jsp">Consultar Pedidos</a></li>
+							<li><a href="altaped.jsp">Alta de Pedidos</a></li>
+							<li><a href="modped.jsp">Modificar Pedidos</a></li>
 						</ul></li>
 					
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Usuario <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
-							<li><a href="jsp/usuarios/editarusuario.jsp">Editar perfil</a></li>
-							<li><a href="#">Cerrar Sesi&oacute;n</a></li>
+							<li><a href="../../jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
+							<li><a href="../../jsp/usuarios/editarusuario.jsp">Editar perfil</a></li>
+							<li><a href="../../index.jsp">Cerrar Sesi&oacute;n</a></li>
 						</ul></li>
 						<li><a href="about.html">Acerca De</a></li>
 				</ul>
@@ -123,13 +124,13 @@
 			</div>
 
 		</aside>
-<script src="js/Global.js"></script>
+<script src="../../js/Global.js"></script>
 <div style="text-align:center" id="fh5co-main">
 	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="../../images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
 		<div class="container">
 <div class="mainbox col-md-10 col-md-offset-1">
 <div class="panel panel-info ">
-<div class="panel-heading"><div class="panel-title">Listado General Productos</div></div>
+<div class="panel-heading"><div class="panel-title">Listado General Pedidos</div></div>
 <div class="panel-body">
 <div class="form-group">
 <input type="text" name="filtro" 
@@ -137,7 +138,7 @@ placeholder="Busqueda por nombre de categoria" class="form-control">
 </div>
 <table class="table table-hover table-bordered">
 <caption>
-<a href="#" class="btn btn-info"><img src="../../images/add.gif" onclick="reenviar('../../Usuarios?op=ap');">Agregar Producto</a>
+<a href="#" class="btn btn-info"><img src="../../images/add.gif" onclick="reenviar('../../Usuarios?op=ap');">Agregar Pedido</a>
 </caption>
 
 <tr>
@@ -177,7 +178,7 @@ placeholder="Busqueda por nombre de categoria" class="form-control">
 	<td>Sin comentario</td>
 </tr>
 </table>
-<input type="button" value="Regresar" class="btn btn-info">
+<input type="button" value="Regresar" class="btn btn-info" onclick="reenviar('../../Usuarios?op=pr');">
 </div>
 </div>
 </div>

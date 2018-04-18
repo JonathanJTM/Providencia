@@ -88,24 +88,24 @@
 						data-toggle="dropdown" href="about.html">Productos <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="listaprod.jsp">Lista de Productos</a></li>
-							<li><a href="consultaprod.jsp">Consultar Productos</a></li>
-							<li><a href="altaprod.jsp">Alta de Productos</a></li>
-							<li><a href="modprod.jsp">Modificar Productos</a></li>
+							<li><a href="../../jsp/productos/listaprod.jsp">Lista de Productos</a></li>
+							<li><a href="../../jsp/productos/consultaprod.jsp">Consultar Productos</a></li>
+							<li><a href="../../jsp/productos/altaprod.jsp">Alta de Productos</a></li>
+							<li><a href="../../jsp/productos/modprod.jsp">Modificar Productos</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Pedidos<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="consultaped.jsp">Consultar Pedidos</a></li>
-							<li><a href="altaped.jsp">Alta de Pedidos</a></li>
-							<li><a href="modped.jsp">Modificar Pedidos</a></li>
+							<li><a href="../../jsp/pedidos/consultaped.jsp">Consultar Pedidos</a></li>
+							<li><a href="../../jsp/pedidos/altaped.jsp">Alta de Pedidos</a></li>
+							<li><a href="../../jsp/pedidos/modped.jsp">Modificar Pedidos</a></li>
 						</ul></li>
 					
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Usuario <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
-							<li><a href="editarusuario.jsp">Editar perfil</a></li>
+							<li><a href="../../jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
+							<li><a href="../../jsp/usuarios/editarusuario.jsp">Editar perfil</a></li>
 							<li><a href="../../index.jsp">Cerrar Sesi&oacute;n</a></li>
 						</ul></li>
 						<li><a href="about.html">Acerca De</a></li>

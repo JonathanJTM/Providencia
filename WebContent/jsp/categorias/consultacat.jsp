@@ -88,24 +88,25 @@
 						data-toggle="dropdown" href="about.html">Productos <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Consultar Productos</a></li>
-							<li><a href="#">Alta de Productos</a></li>
-							<li><a href="#">Editar Productos</a></li>
+							<li><a href="../../jsp/productos/listaprod.jsp">Lista de Productos</a></li>
+							<li><a href="../../jsp/productos/consultaprod.jsp">Consultar Productos</a></li>
+							<li><a href="../../jsp/productos/altaprod.jsp">Alta de Productos</a></li>
+							<li><a href="../../jsp/productos/modprod.jsp">Modificar Productos</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Pedidos<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="#">Consultar Pedidos</a></li>
-							<li><a href="#">Alta de Pedidos</a></li>
-							<li><a href="#">Editar Pedidos</a></li>
+							<li><a href="../../jsp/pedidos/consultaped.jsp">Consultar Pedidos</a></li>
+							<li><a href="../../jsp/pedidos/altaped.jsp">Alta de Pedidos</a></li>
+							<li><a href="../../jsp/pedidos/modped.jsp">Modificar Pedidos</a></li>
 						</ul></li>
 					
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Usuario <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
-							<li><a href="jsp/usuarios/editarusuario.jsp">Editar perfil</a></li>
-							<li><a href="#">Cerrar Sesi&oacute;n</a></li>
+							<li><a href="../../jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
+							<li><a href="../../jsp/usuarios/editarusuario.jsp">Editar perfil</a></li>
+							<li><a href="../../index.jsp">Cerrar Sesi&oacute;n</a></li>
 						</ul></li>
 						<li><a href="about.html">Acerca De</a></li>
 				</ul>
@@ -158,7 +159,7 @@ placeholder="Busqueda por nombre de categoria" class="form-control">
 	<td><a href="#"><img src="../../images/report.png" onclick="reenviar('../../Usuarios?op=cp');" data-toggle="modal" data-target="#myModal"></a></td>
 </tr>
 </table>
-<input type="button" value="Regresar" class="btn btn-info">
+<input type="button" value="Regresar" class="btn btn-info" onclick="reenviar('../../Usuarios?op=pr');">
 </div>
 </div>
 </div>

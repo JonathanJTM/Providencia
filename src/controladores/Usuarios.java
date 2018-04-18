@@ -82,6 +82,10 @@ public class Usuarios extends HttpServlet {
 			rd=request.getRequestDispatcher("jsp/productos/listaprod.jsp");
 			System.out.println("path: " + request.getContextPath());
 			break;
+		case "vp":
+			rd=request.getRequestDispatcher("jsp/productos/prod.jsp");
+			System.out.println("path: " + request.getContextPath());
+			break;
 		case "pp":
 			rd=request.getRequestDispatcher("jsp/pedidos/altaped.jsp");
 			System.out.println("path: " + request.getContextPath());

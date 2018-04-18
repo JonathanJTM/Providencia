@@ -7,7 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Editar Pedido</title>
+	<title>Lista de Productos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -71,7 +71,7 @@
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 			<h1 id="fh5co-logo">
-				<a href="../../index.jsp"><img src="images/Logo1.png"></a>
+				<a href="index.jsp"><img src="images/Logo1.png"></a>
 			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
@@ -80,33 +80,32 @@
 						data-toggle="dropdown" href="#">Categorias <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="../../jsp/categorias/consultacat.jsp">Consultar Categorias</a></li>
-							<li><a href="../../jsp/categorias/altacat.jsp">Alta de Categorias</a></li>
-							<li><a href="../../jsp/categorias/modcat.jsp">Modificar Categorias</a></li>
+							<li><a href="consultacat.jsp">Consultar Categorias</a></li>
+							<li><a href="altacat.jsp">Alta de Categorias</a></li>
+							<li><a href="modcat.jsp">Modificar Categorias</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="about.html">Productos <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="../../jsp/productos/listaprod.jsp">Lista de Productos</a></li>
-							<li><a href="../../jsp/productos/consultaprod.jsp">Consultar Productos</a></li>
-							<li><a href="../../jsp/productos/altaprod.jsp">Alta de Productos</a></li>
-							<li><a href="../../jsp/productos/modprod.jsp">Modificar Productos</a></li>
+							<li><a href="consultaprod.jsp">Consultar Productos</a></li>
+							<li><a href="altaprod.jsp">Alta de Productos</a></li>
+							<li><a href="modprod.jsp">Modificar Productos</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Pedidos<span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="consultaped.jsp">Consultar Pedidos</a></li>
-							<li><a href="altaped.jsp">Alta de Pedidos</a></li>
-							<li><a href="modped.jsp">Modificar Pedidos</a></li>
+							<li><a href="#">Consultar Pedidos</a></li>
+							<li><a href="#">Alta de Pedidos</a></li>
+							<li><a href="#">Editar Pedidos</a></li>
 						</ul></li>
 					
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Usuario <span class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="../../jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
-							<li><a href="../../jsp/usuarios/editarusuario.jsp">Editar perfil</a></li>
-							<li><a href="../../index.jsp">Cerrar Sesi&oacute;n</a></li>
+							<li><a href="jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
+							<li><a href="jsp/usuarios/editarusuario.jsp">Editar perfil</a></li>
+							<li><a href="#">Cerrar Sesi&oacute;n</a></li>
 						</ul></li>
 						<li><a href="about.html">Acerca De</a></li>
 				</ul>
@@ -126,36 +125,20 @@
 		</aside>
 <script src="js/Global.js"></script>
 <div style="text-align:center" id="fh5co-main">
-	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
-		<div class="container">
-<div class="mainbox col-md-6 col-md-offset-2">
-<div class="panel panel-info ">
-<div class="panel-heading"><div class="panel-title">Editar Pedido</div></div>
-<div class="panel-body">
-<form class="form-group" action="usuarios?op=e">
-	<label>Producto:</label>
-	<select name="categ" class="form-control">
-		<option value="A1" selected="selected">Armario 1</option>
-		<option value="C1">Cabecero 1</option>
-		<option value="CO1">Cocina 1</option>
-	</select>
-	<br>
-	<label>Cantidad:</label>
-	<input type="text" name="desc" placeholder="Descripcion" required="required" class="form-control" value="2">
-	<br>
-	<label>Total:</label>
-	<input type="number" name="pventa" placeholder="Precio de Venta" required="required" class="form-control" value="17000">
-	<br>
-	<label>Comentarios:</label>
-	<input type="number" name="pventa" placeholder="Comentarios" required="required" class="form-control" value="Sin comentario.">
-	<br>
-	<input type="submit" value="Guardar" class="btn btn-info">
-	<input type="button" value="Cancelar" class="btn btn-info">
-</form>
-</div>
-</div>
-</div>
-</div>
+		<div class="fh5co-narrow-content">
+				<div class="row">
+					<div class="col-md-5">
+						<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><span>Armario 1</span></h2>
+						<p class="fh5co-lead animate-box" data-animate-effect="fadeInLeft">Este armario de tamaño........cuenta con los siguientes....... y ademas contiene...</p>
+						<p class="animate-box" data-animate-effect="fadeInLeft"> El diseño y creacion de este producto es........creado con materiales de..... con una optima....</p>
+						<p class="animate-box" data-animate-effect="fadeInLeft"> Precio: 8500</p>
+					</div>
+					<div class="col-md-6 col-md-push-1 animate-box" data-animate-effect="fadeInLeft">
+						<img src="images/img_1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive"> 
+					</div>
+				</div>
+				
+			</div>
 	</div>
 
 	<!-- jQuery -->
