@@ -7,7 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Carpinteria La Providencia</title>
+	<title>Editar Producto</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -45,19 +45,19 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="../../css/animate.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="../../css/icomoon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="../../css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="../../css/owl.carousel.min.css">
-	<link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Modernizr JS -->
-	<script src="../../js/modernizr-2.6.2.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -65,22 +65,22 @@
 
 	</head>
 	<body>
-	<script src="../../js/Global.js"></script>
+	<script src="js/Global.js"></script>
 	<div id="fh5co-page">
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 			<h1 id="fh5co-logo">
-				<a href="../../index.jsp"><img src="../../images/Logo1.png"></a>
+				<a href="../../index.jsp"><img src="images/Logo1.png"></a>
 			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li class="fh5co-active"><a href="../../jsp/comunes/principal.jsp">Principal</a></li>
+					<li class="fh5co-active"><a href="jsp/comunes/principal.jsp">Principal</a></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Categorias <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="jsp/categorias/consultacat.jsp">Consultar Categorias</a></li>
+							<li><a href=jsp/categorias/consultacat.jsp">Consultar Categorias</a></li>
 							<li><a href="#">Alta de Categorias</a></li>
 							<li><a href="#">Editar Categorias</a></li>
 						</ul></li>
@@ -104,7 +104,7 @@
 						data-toggle="dropdown" href="#">Usuario <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
-							<li><a href="#">Editar perfil</a></li>
+							<li><a href="jsp/usuarios/editarusuario.jsp">Editar perfil</a></li>
 							<li><a href="#">Cerrar Sesi&oacute;n</a></li>
 						</ul></li>
 						<li><a href="about.html">Acerca De</a></li>
@@ -123,103 +123,67 @@
 			</div>
 
 		</aside>
-
+<script src="js/Global.js"></script>
 <div style="text-align:center" id="fh5co-main">
-	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="../../images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
+	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
 		<div class="container">
-<div class="mainbox col-md-8 col-md-offset-2">
+<div class="mainbox col-md-6 col-md-offset-2">
 <div class="panel panel-info ">
-<div class="panel-heading"><div class="panel-title">Listado General Usuarios</div></div>
+<div class="panel-heading"><div class="panel-title">Editar Producto</div></div>
 <div class="panel-body">
-<div class="form-group">
-<input type="text" name="filtro" 
-placeholder="Busqueda por nombre del usuario" class="form-control">
-</div>
-<table class="table table-hover table-bordered">
-<caption>
-<a href="#" class="btn btn-info"><img src="../../images/add.gif" onclick="reenviar('../../Usuarios?op=au');">Agregar Usuario</a>
-</caption>
-
-<tr>
-	<th>Nombre</th>
-	<th>Password</th>
-	<th>Email</th>
-	<th>Tipo</th>
-	<th>Editar</th>
-	<th>Eliminar</th>
-</tr>
-<tr>
-	<td>Jonathan</td>
-	<td>password123</td>
-	<td>jonathan@gmail.com</td>
-	<td>C</td>
-	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=eu');" data-toggle="modal" data-target="#myModal"></a></td>
-	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('1','Jonathan','usuario');" data-toggle="modal" data-target="#myModal"></a></td>
-</tr>
-<tr>
-	<td>Empleado</td>
-	<td>usuario123</td>
-	<td>emp@gmail.com</td>
-	<td>E</td>
-	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=eu');" data-toggle="modal" data-target="#myModal"></a></td>
-	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('2','Empleado','usuario');" data-toggle="modal" data-target="#myModal"></a></td>
-</tr>
-<tr>
-	<td>Admin</td>
-	<td>Admin123</td>
-	<td>admin@gmail.com</td>
-	<td>A</td>
-	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=eu');" data-toggle="modal" data-target="#myModal"></a></td>
-	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('3','Admin','usuario');" data-toggle="modal" data-target="#myModal"></a></td>
-</tr>
-</table>
-<input type="button" value="Regresar" class="btn btn-info">
+<form class="form-group" action="usuarios?op=e">
+	<label>Nombre de Producto:</label>
+	<input type="text" name="nombre" placeholder="Nombre de Producto" required="required" class="form-control" value="Cabecero">
+	<br>
+	<label>Descripcion:</label>
+	<input type="text" name="desc" placeholder="Descripcion" required="required" class="form-control" value="Cabecero de gran tamaño.">
+	<br>
+	<label>Precio de Venta:</label>
+	<input type="number" name="pventa" placeholder="Precio de Venta" required="required" class="form-control" value="3500">
+	<br>
+	<label>Estatus:</label>
+	<input type="text" name="estatus" placeholder="Estatus" required="required" class="form-control" value="Disponible">
+	<br>
+	<label>Categoria:</label>
+	<select name="categ" class="form-control">
+		<option value="A">Armarios</option>
+		<option value="C">Cabeceros</option>
+		<option value="CO">Cocinas</option>
+	</select>
+	<br>
+	<label>Existencia:</label>
+	<input type="number" name="exist" placeholder="Existencia" required="required" class="form-control" value="4">
+	<br>
+	<label>Imagen:</label>
+	<input type="text" name="imgen" placeholder="Subir imagen" required="required" class="form-control" value="">
+	<br>
+	<input type="submit" value="Guardar" class="btn btn-info">
+	<input type="button" value="Cancelar" class="btn btn-info">
+</form>
 </div>
 </div>
 </div>
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Eliminaci&oacute;n de Registros</h4>
-      </div>
-      <div class="modal-body">
-        <p id="texto"></p>
-        
-      </div>
-      <div class="modal-footer">
-        <div id="boton"></div>
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
-      </div>
-    </div>
-
-  </div>
-  </div>
-
 </div>
 	</div>
 
 	<!-- jQuery -->
-	<script src="../../js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="../../js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="../../js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<!-- Carousel -->
-	<script src="../../js/owl.carousel.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<!-- Stellar -->
-	<script src="../../js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Waypoints -->
-	<script src="../../js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Counters -->
-	<script src="../../js/jquery.countTo.js"></script>
+	<script src="js/jquery.countTo.js"></script>
 	
 	
 	<!-- MAIN JS -->
-	<script src="../../js/main.js"></script>
+	<script src="js/main.js"></script>
 
 	</body>
 </html>

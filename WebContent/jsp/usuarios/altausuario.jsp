@@ -65,6 +65,7 @@
 
 	</head>
 	<body>
+	<script src="js/Global.js"></script>
 	<div id="fh5co-page">
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
@@ -102,6 +103,7 @@
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Usuario <span class="caret"></span></a>
 						<ul class="dropdown-menu">
+							<li><a href="jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
 							<li><a href="#">Editar perfil</a></li>
 							<li><a href="#">Cerrar Sesi&oacute;n</a></li>
 						</ul></li>
@@ -148,8 +150,9 @@
 		<option value="P">Dueño</option>
 	</select>
 	<br>
-	<input type="submit" value="Guardar" class="btn btn-info">
-	<input type="button" value="Cancelar" class="btn btn-info">
+	<!--<input type="submit" value="Guardar" class="btn btn-info">-->
+	<input type="button" value="Guardar" class="btn btn-info" onclick="reenviar('Usuarios?op=pr');"/>
+	<input type="button" value="Cancelar" class="btn btn-info" onclick="reenviar('Usuarios?op=in');"/>
 </form>
 </div>
 </div>

@@ -45,16 +45,16 @@
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="../../css/animate.css">
+	<link rel="stylesheet" href="css/animate.css">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="../../css/icomoon.css">
+	<link rel="stylesheet" href="css/icomoon.css">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="../../css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="../../css/owl.carousel.min.css">
-	<link rel="stylesheet" href="../../css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="../../css/style.css">
+	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Modernizr JS -->
 	<script src="../../js/modernizr-2.6.2.min.js"></script>
@@ -65,22 +65,21 @@
 
 	</head>
 	<body>
-	<script src="../../js/Global.js"></script>
 	<div id="fh5co-page">
 		<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
 		<aside id="fh5co-aside" role="complementary" class="border js-fullheight">
 
 			<h1 id="fh5co-logo">
-				<a href="../../index.jsp"><img src="../../images/Logo1.png"></a>
+				<a href="index.jsp"><img src="images/Logo1.png"></a>
 			</h1>
 			<nav id="fh5co-main-menu" role="navigation">
 				<ul>
-					<li class="fh5co-active"><a href="../../jsp/comunes/principal.jsp">Principal</a></li>
+					<li class="fh5co-active"><a href="jsp/comunes/principal.jsp">Principal</a></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="#">Categorias <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="jsp/categorias/consultacat.jsp">Consultar Categorias</a></li>
+							<li><a href="#">Consultar Categorias</a></li>
 							<li><a href="#">Alta de Categorias</a></li>
 							<li><a href="#">Editar Categorias</a></li>
 						</ul></li>
@@ -125,101 +124,59 @@
 		</aside>
 
 <div style="text-align:center" id="fh5co-main">
-	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="../../images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
+	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
 		<div class="container">
-<div class="mainbox col-md-8 col-md-offset-2">
+<div class="mainbox col-md-6 col-md-offset-2">
 <div class="panel panel-info ">
-<div class="panel-heading"><div class="panel-title">Listado General Usuarios</div></div>
+<div class="panel-heading"><div class="panel-title">Editar Usuario</div></div>
 <div class="panel-body">
-<div class="form-group">
-<input type="text" name="filtro" 
-placeholder="Busqueda por nombre del usuario" class="form-control">
-</div>
-<table class="table table-hover table-bordered">
-<caption>
-<a href="#" class="btn btn-info"><img src="../../images/add.gif" onclick="reenviar('../../Usuarios?op=au');">Agregar Usuario</a>
-</caption>
-
-<tr>
-	<th>Nombre</th>
-	<th>Password</th>
-	<th>Email</th>
-	<th>Tipo</th>
-	<th>Editar</th>
-	<th>Eliminar</th>
-</tr>
-<tr>
-	<td>Jonathan</td>
-	<td>password123</td>
-	<td>jonathan@gmail.com</td>
-	<td>C</td>
-	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=eu');" data-toggle="modal" data-target="#myModal"></a></td>
-	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('1','Jonathan','usuario');" data-toggle="modal" data-target="#myModal"></a></td>
-</tr>
-<tr>
-	<td>Empleado</td>
-	<td>usuario123</td>
-	<td>emp@gmail.com</td>
-	<td>E</td>
-	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=eu');" data-toggle="modal" data-target="#myModal"></a></td>
-	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('2','Empleado','usuario');" data-toggle="modal" data-target="#myModal"></a></td>
-</tr>
-<tr>
-	<td>Admin</td>
-	<td>Admin123</td>
-	<td>admin@gmail.com</td>
-	<td>A</td>
-	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=eu');" data-toggle="modal" data-target="#myModal"></a></td>
-	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('3','Admin','usuario');" data-toggle="modal" data-target="#myModal"></a></td>
-</tr>
-</table>
-<input type="button" value="Regresar" class="btn btn-info">
+<form class="form-group" action="usuarios?op=e">
+	<label>Nombre de usuario:</label>
+	
+	<input type="text" name="nombre" placeholder="Nombre de Usuario" required="required" class="form-control" value="Jonathan">
+	<br>
+	<label>Contrase&ntilde;a</label>
+	<input type="password" name="pwd" placeholder="Contraseña" required="required" class="form-control" oninput="verPwdChange();" value="123">
+	<p id="pwd"></p>
+	<label class="checkbox-nline"><input type="checkbox" id="verpwd" class="checbox-inline" onclick="mostrarPwd();"> Ver contraseña</label>
+	<br>
+	<label>Email:</label>
+	<input type="email" name="email" placeholder="Email" required="required" class="form-control" value="jonathan@gmail.com">
+	<br>
+	<label>Tipo de usuario:</label><select name="tipo" class="form-control">
+		<option value="C" >Cliente</option>
+		<option value="E" selected="selected">Empleado</option>
+		<option value="D">Dueño</option>
+		<option value="A">Administrador</option>
+	</select>
+	<br>
+	<input type="submit" value="Guardar" class="btn btn-info">
+	<input type="button" value="Cancelar" class="btn btn-info">
+</form>
 </div>
 </div>
 </div>
-<div id="myModal" class="modal fade" role="dialog">
-  <div class="modal-dialog">
-
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Eliminaci&oacute;n de Registros</h4>
-      </div>
-      <div class="modal-body">
-        <p id="texto"></p>
-        
-      </div>
-      <div class="modal-footer">
-        <div id="boton"></div>
-        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancelar</button>
-      </div>
-    </div>
-
-  </div>
-  </div>
-
 </div>
 	</div>
 
 	<!-- jQuery -->
-	<script src="../../js/jquery.min.js"></script>
+	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
-	<script src="../../js/jquery.easing.1.3.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script>
 	<!-- Bootstrap -->
-	<script src="../../js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	<!-- Carousel -->
-	<script src="../../js/owl.carousel.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
 	<!-- Stellar -->
-	<script src="../../js/jquery.stellar.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
 	<!-- Waypoints -->
-	<script src="../../js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Counters -->
-	<script src="../../js/jquery.countTo.js"></script>
+	<script src="js/jquery.countTo.js"></script>
 	
 	
 	<!-- MAIN JS -->
-	<script src="../../js/main.js"></script>
+	<script src="js/main.js"></script>
 
 	</body>
 </html>

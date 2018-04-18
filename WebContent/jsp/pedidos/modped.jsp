@@ -7,7 +7,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Carpinteria La Providencia</title>
+	<title>Modificar Pedidos</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -57,7 +57,7 @@
 	<link rel="stylesheet" href="../../css/style.css">
 
 	<!-- Modernizr JS -->
-	<script src="../../js/modernizr-2.6.2.min.js"></script>
+	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -80,9 +80,9 @@
 						data-toggle="dropdown" href="#">Categorias <span
 							class="caret"></span></a>
 						<ul class="dropdown-menu">
-							<li><a href="jsp/categorias/consultacat.jsp">Consultar Categorias</a></li>
-							<li><a href="#">Alta de Categorias</a></li>
-							<li><a href="#">Editar Categorias</a></li>
+							<li><a href="consultacat.jsp">Consultar Categorias</a></li>
+							<li><a href="altacat.jsp">Alta de Categorias</a></li>
+							<li><a href="modcat.jsp">Modificar Categorias</a></li>
 						</ul></li>
 					<li class="dropdown"><a class="dropdown-toggle"
 						data-toggle="dropdown" href="about.html">Productos <span
@@ -104,7 +104,7 @@
 						data-toggle="dropdown" href="#">Usuario <span class="caret"></span></a>
 						<ul class="dropdown-menu">
 							<li><a href="jsp/usuarios/consultausuario.jsp">Consultar Usuarios</a></li>
-							<li><a href="#">Editar perfil</a></li>
+							<li><a href="jsp/usuarios/editarusuario.jsp">Editar perfil</a></li>
 							<li><a href="#">Cerrar Sesi&oacute;n</a></li>
 						</ul></li>
 						<li><a href="about.html">Acerca De</a></li>
@@ -123,54 +123,67 @@
 			</div>
 
 		</aside>
-
+<script src="../../js/Global.js"></script>
 <div style="text-align:center" id="fh5co-main">
 	<h4 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft"><img src="../../images/LogoCarpPro.png" alt="Free HTML5 Bootstrap Website Template"> <span>Productos de Calidad!</span></h4>
 		<div class="container">
 <div class="mainbox col-md-8 col-md-offset-2">
 <div class="panel panel-info ">
-<div class="panel-heading"><div class="panel-title">Listado General Usuarios</div></div>
+<div class="panel-heading"><div class="panel-title">Listado General Pedidos</div></div>
 <div class="panel-body">
 <div class="form-group">
 <input type="text" name="filtro" 
-placeholder="Busqueda por nombre del usuario" class="form-control">
+placeholder="Busqueda por nombre de categoria" class="form-control">
 </div>
+
 <table class="table table-hover table-bordered">
 <caption>
-<a href="#" class="btn btn-info"><img src="../../images/add.gif" onclick="reenviar('../../Usuarios?op=au');">Agregar Usuario</a>
+<a href="#" class="btn btn-info"><img src="../../images/add.gif" onclick="reenviar('../../Usuarios?op=ap');">Agregar Producto</a>
 </caption>
 
 <tr>
-	<th>Nombre</th>
-	<th>Password</th>
-	<th>Email</th>
-	<th>Tipo</th>
+	<th>Id</th>
+	<th>Fecha de pedido</th>
+	<th>Usuario</th>
+	<th>Producto</th>
+	<th>Cantidad</th>
+	<th>Total</th>
+	<th>Comentarios</th>
 	<th>Editar</th>
 	<th>Eliminar</th>
 </tr>
 <tr>
+	<td>01</td>
+	<td>2018-04-01</td>
 	<td>Jonathan</td>
-	<td>password123</td>
-	<td>jonathan@gmail.com</td>
-	<td>C</td>
-	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=eu');" data-toggle="modal" data-target="#myModal"></a></td>
-	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('1','Jonathan','usuario');" data-toggle="modal" data-target="#myModal"></a></td>
+	<td>Armario</td>
+	<td>1</td>
+	<td>8500</td>
+	<td>Sin comentario</td>
+	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=e');" data-toggle="modal" data-target="#myModal"></a></td>
+	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('1','01','pedido');" data-toggle="modal" data-target="#myModal"></a></td>
 </tr>
 <tr>
-	<td>Empleado</td>
-	<td>usuario123</td>
-	<td>emp@gmail.com</td>
-	<td>E</td>
-	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=eu');" data-toggle="modal" data-target="#myModal"></a></td>
-	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('2','Empleado','usuario');" data-toggle="modal" data-target="#myModal"></a></td>
+	<td>02</td>
+	<td>2018-04-11</td>
+	<td>Cliente02</td>
+	<td>Armario</td>
+	<td>2</td>
+	<td>17000</td>
+	<td>Sin comentario</td>
+	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=e');" data-toggle="modal" data-target="#myModal"></a></td>
+	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('1','02','pedido');" data-toggle="modal" data-target="#myModal"></a></td>
 </tr>
 <tr>
-	<td>Admin</td>
-	<td>Admin123</td>
-	<td>admin@gmail.com</td>
-	<td>A</td>
-	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=eu');" data-toggle="modal" data-target="#myModal"></a></td>
-	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('3','Admin','usuario');" data-toggle="modal" data-target="#myModal"></a></td>
+	<td>03</td>
+	<td>2018-04-14</td>
+	<td>Cliente03</td>
+	<td>Cabecero</td>
+	<td>3</td>
+	<td>10500</td>
+	<td>Sin comentario</td>
+	<td><a href="#"><img src="../../images/editar.png" onclick="reenviar('../../Usuarios?op=e');" data-toggle="modal" data-target="#myModal"></a></td>
+	<td><a href="#"><img src="../../images/eliminar.png" onclick="eliminar('1','01','pedido');" data-toggle="modal" data-target="#myModal"></a></td>
 </tr>
 </table>
 <input type="button" value="Regresar" class="btn btn-info">
